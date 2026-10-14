@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "wpu/visa-mer",
+	"title": "Visa mer",
+	"category": "text",
+	"icon": "arrow-down-alt2",
+	"description": "En hopfälld text som fälls ut med en knapp.",
+	"textdomain": "wpu-visa-mer",
+	"attributes": {
+		"rubrik": { "type": "string", "default": "" },
+		"text": { "type": "string", "default": "" }
+	},
+	"supports": {
+		"html": false,
+		"interactivity": true
+	},
+	"editorScript": "file:./index.js",
+	"viewScriptModule": "file:./view.js",
+	"render": "file:./render.php"
+}
